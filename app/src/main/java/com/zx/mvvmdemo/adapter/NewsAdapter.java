@@ -1,9 +1,10 @@
 package com.zx.mvvmdemo.adapter;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 import android.view.ViewGroup;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 import com.zx.mvvmdemo.BR;
 import com.zx.mvvmdemo.R;

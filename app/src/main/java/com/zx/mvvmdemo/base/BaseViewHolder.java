@@ -1,7 +1,8 @@
 package com.zx.mvvmdemo.base;
 
-import android.databinding.ViewDataBinding;
 import android.support.v7.widget.RecyclerView;
+
+import androidx.databinding.ViewDataBinding;
 
 /**
  * 作者： 周旭 on 2017年10月17日 0017.

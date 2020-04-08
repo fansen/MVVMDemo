@@ -40,7 +40,13 @@ public class NewsModelImpl implements INewsModel {
                         simpleNewsBeanList.clear();
                         if (othersBeanList != null && othersBeanList.size() > 0) {
                             for (NewsBean.OthersBean othersBean : othersBeanList) {
-                                String thumbnail = othersBean.getThumbnail();
+                                List<String> images = othersBean.getThumbnail();
+                                String thumbnail;
+                                if (images != null && images.size()>0) {
+                                    thumbnail = images.get(0);
+                                } else {
+                                    thumbnail = "";
+                                }
                                 String name = othersBean.getName();
                                 String description = othersBean.getDescription();
                                 Log.i(TAG, "thumbnail:---->" + thumbnail);

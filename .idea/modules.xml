@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MVVMDemo.iml" filepath="$PROJECT_DIR$/MVVMDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/MVVMDemo-app.iml" filepath="$PROJECT_DIR$/app/MVVMDemo-app.iml" group="MVVMDemo/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-MVVMDemo.iml" filepath="$PROJECT_DIR$/github-MVVMDemo.iml" group="MVVMDemo" />
     </modules>
   </component>
 </project>
