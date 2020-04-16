@@ -25,7 +25,7 @@ import io.reactivex.schedulers.Schedulers;
 public class NewsModelImpl implements INewsModel {
 
     private static final String TAG = "NewsModelImpl";
-    List<SimpleNewsBean> simpleNewsBeanList = new ArrayList<SimpleNewsBean>();
+    List<SimpleNewsBean> simpleNewsBeanList = new ArrayList<>();
 
     @Override
     public void loadNewsData(final int page, final BaseLoadListener<SimpleNewsBean> loadListener) {
